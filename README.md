@@ -21,3 +21,7 @@ Use _Github_ as hosting server and CircleCI as our external CI service;
 	
 	- Make sure to store those dependencies in a `requirements.txt` file so others can replicate your environment;
 
+3. Set up CI pipeline via **CircleCI**
+
+**CircleCI** needs to know how to run your build and expects that information to be supplied in a particular format.  It requires a `.circleci` folder within your repo and a configuration file inside it, which contains instructions for all the steps that the build server needs to execute. **CircleCI** expects this file to be called `config.yml`
+
